@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Table from './Table.js';
+import TableNew from './Table.js';
 
 class App extends Component {
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
           </a>
         </header>
         <section>
-          <Table />
+          <TableNew />
         </section>
       </div>
     );

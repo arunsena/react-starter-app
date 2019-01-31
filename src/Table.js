@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import Table from 'react-bootstrap/lib/Table'
 
-class Table extends Component{
+class TableNew extends Component{
     render() {
         return (
-            <table className="table table-bordered">
+            <Table bordered variant="dark">
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -28,9 +29,9 @@ class Table extends Component{
                         <td>Bartender</td>
                     </tr>
                 </tbody>
-            </table>
+            </Table>
         );
     }
 }
 
-export default Table;
+export default TableNew;
